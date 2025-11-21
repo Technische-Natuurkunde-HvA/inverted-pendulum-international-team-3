@@ -54,9 +54,17 @@ What should you focus on or improve in the coming weeks of the project?
 # Week 2
 
 ## 1. Progress description
+HVA team: This week we did the PWM measurements with incrementing steps of 50.
+We made a graph of these measurements set out against The RPM value.
 
 ## 2. Code
 
 ## 3. Results
+HVA team
+<img width="571" height="453" alt="image" src="https://github.com/user-attachments/assets/afa86f9c-f8f4-4628-b2f9-04c6656095b4" />
+
 
 ## 4. Reflection 
+HVA team: monday we are going to do a neww measurement with PWM values with increments of 5. 
+The international part of the team has done it this way. 
+Then we are going to catch up with the international side of the team by implementing the measurements into the code and getting the pendulem working. 
