@@ -24,6 +24,7 @@ For example:
 - For Python, use `python`.
 
 
+
 #### Example:
 
 ```c
@@ -47,3 +48,15 @@ Add charts and other visuals to the `visuals` folder in the GitHub repository an
 ## 4. Reflection 
 What did you learn this week?
 What should you focus on or improve in the coming weeks of the project?
+
+---
+
+# Week 2
+
+## 1. Progress description
+
+## 2. Code
+
+## 3. Results
+
+## 4. Reflection 
