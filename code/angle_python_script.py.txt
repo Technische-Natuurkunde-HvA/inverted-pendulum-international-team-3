@@ -1,0 +1,38 @@
+import serial
+import time
+
+# -------------------------------------------------------
+# CONFIG
+# -------------------------------------------------------
+PORTA = "COM8"                 # <- Changes to the right port
+BAUD = 9600
+FICHEIRO = "dados_serial.txt"
+TEMPO_LEITURA = 5              # seconds
+# -------------------------------------------------------
+
+try:
+    ser = serial.Serial(PORTA, BAUD, timeout=1)
+    time.sleep(2)  # Waits for Arduino to restart
+    print(f"Ligado à porta {PORTA} a {BAUD} baud.")
+except Exception as e:
+    print(f"Erro ao ligar à porta serial: {e}")
+    quit()
+
+print(f"A ler dados durante {TEMPO_LEITURA} segundos...\n")
+
+inicio = time.time()
+
+with open(FICHEIRO, "w") as f:
+    f.write("tempo_s,valor\n")  
+
+    while time.time() - inicio < TEMPO_LEITURA:
+        if ser.in_waiting > 0:
+            valor = ser.readline().decode(errors='ignore').strip()
+            tempo_s = time.time() - inicio
+            linha = f"{tempo_s:.3f},{valor}"
+
+            print(linha)
+            f.write(linha + "\n")
+
+ser.close()
+print(f"\nTerminado. Dados + tempo guardados em '{FICHEIRO}'.")
