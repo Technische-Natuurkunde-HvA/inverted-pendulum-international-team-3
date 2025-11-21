@@ -65,6 +65,4 @@ HVA team
 
 
 ## 4. Reflection 
-HVA team: monday we are going to do a new measurement with PWM values with increments of 5. 
-The international part of the team has done it this way. 
-Then we are going to catch up with the international side of the team by implementing the measurements into the code and getting the pendulem working. 
+HVA team: We are going to do the measurements again with incrementing steps of 5 like out interntational side of the team have done. 
