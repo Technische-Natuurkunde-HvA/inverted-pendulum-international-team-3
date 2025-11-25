@@ -1,0 +1,7 @@
+- Good you have written your first weekly progress update. But this report is supposed to reflect the work of the whole international team, not just one side.
+    - Nice to see you have included a graph.
+- Update: Found the measurement protocol file on Teams. Well done. Is it still relevant now though?
+- Great you have uploaded a Python script. But please write all comments in English! As an international team, you should collaborate on the same code.
+- Glad you have included some data of angle measurements already. And a graph as well, excellent.
+- Any code for the motor and encoder is lacking entirely. How do you intend to automize the measurements of motor RPM?
+- Try to merge the two approaches in Lisbon and Amsterdam.
