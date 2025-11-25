@@ -25,7 +25,7 @@ For code, we will use the pre-written C# code to measure the PWM values.
 We had workshops and made a plan for the next week.
 
 ## 4. Reflection 
-We have learnt how to work as an international team and what impacts culture indifferences has on an international team and how to deal with (if any) problems caused by cultural indifferences.
+We have learnt how to work as an international team and what impacts culture differences has on an international team and how to deal with (if any) problems caused by cultural differences.
 
 ---
 
