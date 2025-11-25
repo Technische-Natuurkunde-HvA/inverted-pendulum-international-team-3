@@ -65,3 +65,15 @@ HVA team: We are going to do the measurements again with incrementing steps of 5
 **An example of the graph you expect to produce:**
 
 - <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/a714d244-5c57-48db-ac11-4acac1266d3f" />
+
+---
+
+# Week 3
+
+## 1. Progress description
+
+## 2. Code 
+
+## 3. Results
+
+## 4. Reflection
