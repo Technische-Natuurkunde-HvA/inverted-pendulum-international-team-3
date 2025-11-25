@@ -14,40 +14,18 @@ Use the GitHub repository to store important project files (code, visuals includ
 # Week 1
 
 ## 1. Progress description
-Describe the progress of your work for this week. Keep it clear and concise.
+We made a plan to make a wheel and a measurement protocol. We decided that team Lisbon will design the wheel and team Amsterdam will make the measurement protocol.
 
 ## 2. Code
-
-You can display code using three backticks (```) followed by an optional language extension.  
-For example:  
-- For C/C++ code, use `c` or `cpp`.  
-- For Python, use `python`.
+For code, we will use the pre-written C# code to measure the PWM values.
 
 
 
-#### Example:
-
-```c
-// Header file for input/output functions
-#include <stdio.h>
-
-// Main function: entry point for execution
-int main() {
-
-    // Print a message to the console
-    printf("Hello World");
-
-    return 0;
-}
-``` 
 ## 3. Results
-Present your results here. This may include tables, figures, or charts.
-Add charts and other visuals to the `visuals` folder in the GitHub repository and reference them in this document if needed.
-
+We had workshops and made a plan for the next week.
 
 ## 4. Reflection 
-What did you learn this week?
-What should you focus on or improve in the coming weeks of the project?
+We have learnt how to work as an international team and what impacts culture indifferences has on an international team and how to deal with (if any) problems caused by cultural indifferences.
 
 ---
 
@@ -70,19 +48,19 @@ HVA team: We are going to do the measurements again with incrementing steps of 5
 ## 5. Measurement protocol
 **At which PWM values will you measure?:**
 
-- The PWM value goes from 0  to 255. We will measure it with increments of 5. Then we will plot the PWM values against the rpm values and put a fit-function in the graph to get an equation to go from PWM to rpm.
+- *The PWM value goes from 0  to 255. We will measure it with increments of 5. Then we will plot the PWM values against the rpm values and put a fit-function in the graph to get an equation to go from PWM to rpm.*
 
 **How many measurements will you perform at each PWM value? How long will each measurement last?:**
 
-- 1 measurement per PWM value and measure it when the motor rotates at a constant speed.</p>
+- *1 measurement per PWM value and measure it when the motor rotates at a constant speed.*
 
 **The motor can rotate in two directions. How will you account for this in your measurements?:**
 
-- We will measure it only at one direction.
+- *We will measure it only at one direction.*
 
 **Which software will you use to collect and process your data?:**
     
-- We will use Arduino IDE to run the program and collect the data and python to process it.
+- *We will use Arduino IDE to run the program and collect the data and python to process it.*
 
 **An example of the graph you expect to produce:**
 
