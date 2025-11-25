@@ -84,6 +84,6 @@ HVA team: We are going to do the measurements again with incrementing steps of 5
     
 - We will use Arduino IDE to run the program and collect the data and python to process it.
 
-**An example of the graoh you expect to produce:**
+**An example of the graph you expect to produce:**
 
 - <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/a714d244-5c57-48db-ac11-4acac1266d3f" />
