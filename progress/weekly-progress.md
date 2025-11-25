@@ -68,17 +68,22 @@ HVA team
 HVA team: We are going to do the measurements again with incrementing steps of 5 like out interntational side of the team have done. 
 
 ## 5. Measurement protocol
-At which PWM values will you measure?:
-    The PWM value goes from 0  to 255. We will measure it with increments of 5. Then we will plot the PWM values against the rpm values and put a fit-function in the graph to get an equation to go from PWM to rpm.
+**At which PWM values will you measure?:**
 
-How many measurements will you perform at each PWM value? How long will each measurement last?:
-    1 measurement per PWM value and measure it when the motor rotates at a constant speed.
+- The PWM value goes from 0  to 255. We will measure it with increments of 5. Then we will plot the PWM values against the rpm values and put a fit-function in the graph to get an equation to go from PWM to rpm.
 
-The motor can rotate in two directions. How will you account for this in your measurements?:
-    We will measure it only at one direction.
+**How many measurements will you perform at each PWM value? How long will each measurement last?:**
 
-Which software will you use to collect and process your data?:
-    We will use Arduino IDE to run the program and collect the data and python to process it.
+- 1 measurement per PWM value and measure it when the motor rotates at a constant speed.</p>
 
-An example of the graoh you expect to produce:
-    <img width="628" height="483" alt="image" src="https://github.com/user-attachments/assets/a714d244-5c57-48db-ac11-4acac1266d3f" />
+**The motor can rotate in two directions. How will you account for this in your measurements?:**
+
+- We will measure it only at one direction.
+
+**Which software will you use to collect and process your data?:**
+    
+- We will use Arduino IDE to run the program and collect the data and python to process it.
+
+**An example of the graoh you expect to produce:**
+
+- <img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/a714d244-5c57-48db-ac11-4acac1266d3f" />
