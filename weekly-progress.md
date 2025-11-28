@@ -71,6 +71,18 @@ HVA team: We are going to do the measurements again with incrementing steps of 5
 # Week 3
 
 ## 1. Progress description
+HVA Team: This week we did the PWM-RPM measurement again but with incrementing steps of 5. 
+
+## 2. Code 
+
+## 3. Results
+We combined the graphs of both our teams's output response curves.
+
+## 4. Reflection
+
+# Week 4
+
+## 1. Progress description
 
 ## 2. Code 
 
