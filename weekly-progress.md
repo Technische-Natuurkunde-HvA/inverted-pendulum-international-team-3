@@ -84,8 +84,27 @@ We combined the graphs of both our teams's output response curves.
 
 ## 1. Progress description
 
-## 2. Code 
+The portugal team has had some setbacks with the sensor. The sensor made big jumps in the value it read out, even by just blowing on it.
+We tried to change from Arduino UNO R4 WiFi to the Arduino Uno R3.
+It was not successful.
+We changed cables.
+We changed the sensor.
+Adjusted the mount.
+Made multiple versions of the code that are now in comment on our sketch of the week 3 assignment.
+And it set us back so as we did not start to do the week 4 assignment as we were not able to retrieve data to complete the week 3 assignment as we.
+So they didnt manage to get the pendulumn to be stable yet.
+
+The HvA team did manage to stabilize the pendulumn but couldn't manage to export the data with python because one of the arms snapped.
+We did get another one printed out so we'll try again next week.
+
+We are also going to print out a new wheel.
+
 
 ## 3. Results
 
+So for the results the HvA team got the pendulumn stable but couldnt export the data.
+The portugal team couldnt get the pendulumn stable yet because of problems with the sensor.
+
 ## 4. Reflection
+
+As for the extra challenges, we'll try to use a bearing and maybe try removing some counterweight.
