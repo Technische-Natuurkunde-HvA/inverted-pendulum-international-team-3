@@ -93,6 +93,8 @@ Adjusted the mount.
 Made multiple versions of the code that are now in comment on our sketch of the week 3 assignment.
 And it set us back so as we did not start to do the week 4 assignment as we were not able to retrieve data to complete the week 3 assignment as we.
 So they didnt manage to get the pendulumn to be stable yet.
+They did manage to get the sensor working eventually but didn't have time to do the week 4 assignment so they will do that next week.
+The assignment for week 3 could be completed.
 
 The HvA team did manage to stabilize the pendulumn but couldn't manage to export the data with python because one of the arms snapped.
 We did get another one printed out so we'll try again next week.
