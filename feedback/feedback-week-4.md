@@ -1,0 +1,5 @@
+- Your weekly progress update is definitely more detailed than last week. However, there is still no reference to any of your code.
+- Your improvements to the PID control sketch are sensible. Well done.
+- As your weekly progress updates in previous weeks were often incomplete, you will most likely need to invest extra time in writing the final product.
+- When tuning the parameters make sure you have a systematic approach. Decide on which parameters to change, observe the results and based on the results, decide which parameter to change next and by how much.
+- Make sure that you report on the process and intermediate results. Explain how you made decisions and why, instead of just mentioning the final numbers.
