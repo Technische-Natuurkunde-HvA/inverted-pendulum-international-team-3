@@ -110,3 +110,18 @@ The portugal team couldnt get the pendulumn stable yet because of problems with 
 ## 4. Reflection
 
 As for the extra challenges, we'll try to use a bearing and maybe try removing some counterweight.
+
+# Week 5
+
+## 1. Progress description
+
+The HVA team got the pendulum fixed up which broke last week. We managed to complete the challenge of adding the metal bearings and using less weight.
+
+
+## 3. Results
+
+
+
+## 4. Reflection
+
+
