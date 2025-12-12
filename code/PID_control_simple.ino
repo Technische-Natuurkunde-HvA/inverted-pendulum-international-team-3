@@ -17,14 +17,14 @@ const int motorPin2 = 11; // IN2
 const int enablePin = 9; // ENA (PWM pin for speed control)
 
 
-double setpoint = 316.0; // Desired angle (vertical position)
+double setpoint = 26.0; // Desired angle (vertical position)
 double output = 0;
 
 bool atBumper = false;
 
 // PID parameters
-double Kp = 20;
-double Ki = 3;
+double Kp = 45;
+double Ki = 10;
 double Kd = 2;
 PID myPID(&sig_angle_deg, &output, &setpoint, Kp, Ki, Kd, DIRECT);
 
