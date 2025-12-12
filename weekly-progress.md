@@ -120,8 +120,9 @@ The HVA team got the pendulum fixed up which broke last week. We managed to comp
 
 ## 3. Results
 
-
+See the video 'stabilised pandulum' under visuals.
 
 ## 4. Reflection
 
+The additional challenges went well. We didn't have enough time to do morwe challenging assignments sadly.
 
