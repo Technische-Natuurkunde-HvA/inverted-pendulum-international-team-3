@@ -8,6 +8,8 @@ inverted pendulum using a reaction wheel driven by an electric motor.
 
 ## 1. Project Motivation
 
+The inverted pendulum is an interesting project for the experimentation with control of a system. The materials needed for this project are not too expensive and most parts can be 3D printed. 
+
 ## 2. System Overview
 
 ## 3. Control Principle
@@ -17,6 +19,10 @@ inverted pendulum using a reaction wheel driven by an electric motor.
 ### 4.1 Arduino Control Software
 
 ### 4.2 Python Tools
+
+For the gathing of data from the Arduino we used the /inverted-pendulum-international-team-3/code/save_info_to_csv.py script. 
+
+For the visualisation of the data we used the /inverted-pendulum-international-team-3/code/plot_data.ipynb script.
 
 ## 5. Experiments and Data
 
