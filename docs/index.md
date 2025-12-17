@@ -27,9 +27,8 @@ For the visualisation of the data we used the /inverted-pendulum-international-t
 ## 5. Experiments and Data
 
 ## 6. Results
-<video width="640" controls>
-  <source src="visuals/Pendulum slow swing.mp4" type="video/mp4">
-  Your browser does not support the video tag.
+<video controls width="640">
+  <source src="./visuals/pendulumn_lisbon.mp4" type="video/mp4">
 </video>
 
 [abc](https://raw.githubusercontent.com/visuals/Pendulum slow swing.mp4)
