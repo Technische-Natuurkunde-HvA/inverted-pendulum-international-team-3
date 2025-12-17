@@ -35,6 +35,10 @@ For the visualisation of the data we used the /inverted-pendulum-international-t
 
 [Watch the video](./visuals/pendulum_lisbon.mp4)
 
+[![Watch video](../visuals/video-thumbnail.png)](../visuals/pendulum_lisbon.mp4)
+
+(../visuals/PID_data_bearing_time_vs_angle.png)
+
 ## 7. Project Timeline
 
 ## 8. Team and Credits
