@@ -27,6 +27,7 @@ For the visualisation of the data we used the /inverted-pendulum-international-t
 ## 5. Experiments and Data
 
 ## 6. Results
+(visuals/Pendulum slow swing.mp4)
 
 ## 7. Project Timeline
 
