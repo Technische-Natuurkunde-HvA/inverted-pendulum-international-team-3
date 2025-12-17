@@ -25,19 +25,35 @@ For the gathing of data from the Arduino we used the /inverted-pendulum-internat
 For the visualisation of the data we used the /inverted-pendulum-international-team-3/code/plot_data.ipynb script.
 
 ## 5. Experiments and Data
+We had to kalibrate the motor to give the correct RPM for the given PWM values. 
+
+Data HVA team 
+
+[PWM over time](../visuals/PID_data_bearing_time_vs_pwm.png)
+
+[PWM over time, less weight](../visuals/PID_data_bearing_less_weight_time_vs_pwm.png)
+
+[anglke over time](../visuals/PID_data_bearing_time_vs_angle.png)
+
+[angle over time, less weight](../visuals/PID_data_bearing_less_weight_time_vs_angle.png)
+
+Data ISEL team 
+
+[angle over time](../visuals/image_2025-11-21_154353655.png)
+
 
 ## 6. Results
+Results HVA team 
 
-<video controls width="640">
-  <source src="../visuals/pendulum_lisbon.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[slow swing](../visuals/Pendulum%20slow%20swing.mp4)
 
-[Watch the video](./visuals/pendulum_lisbon.mp4)
+[stabilised pendulum](../visuals/stabilised%20pendulum%20HVA.mp4)
 
-[![Watch video](../visuals/video-thumbnail.png)](../visuals/pendulum_lisbon.mp4)
 
-[graph](../visuals/PID_data_bearing_time_vs_angle.png)
+Results ISEL team 
+
+[stabilised pendulum](../visuals/pendulumn_lisbon.mp4)
+
 
 ## 7. Project Timeline
 
