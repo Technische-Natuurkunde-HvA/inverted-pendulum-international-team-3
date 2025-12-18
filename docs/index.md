@@ -1,5 +1,3 @@
-index.md
-
 # Reaction Wheel Inverted Pendulum - Team 3
 
 This project was carried out by an international team of students at the
@@ -12,17 +10,34 @@ The inverted pendulum is an interesting project for the experimentation with con
 
 ## 2. System Overview
 
+The pendulum arm with wheel is mounted on a bolt that is attached to a 3D-printed base that is clamped to a table.
+The bolt has a specially polarized magnet at the end which the AS5600 sensor can measure the angle from.
+The flywheel has an electric motor in the center to spin the wheel in the left or right direction to induce torque.
+An Arduino UNO R4 was used to read the sensor data and drive the motor.
+
 ## 3. Control Principle
+
+The pendulum is not stable when it is upright, it want to fall to either the left or right side.
+By spinning the motor in the opposite direction in which the wheel is falling it generates torque, this will fight gravity and try to keep the pendulum in the middle.
+To achieve this the controller needs to know where the middle is and what direction then to spin the wheel.
+The middle angle must be set in the script. When this is set the PID controller will try to get the angle it is reading as close as possible to the set angle by spinning the motor.
 
 ## 4. Implementation
 
 ### 4.1 Arduino Control Software
 
+The systems logic updates every 5 miliseconds or 200Hz. This timing is set by the FREE_RUN_PERIOD_MS constant so the PID controller maintains a consistant pace.
+The main entry point for the system is the [PID Controller](../code/PID_control_simple.ino) script. This script contains all the functions needed for the sensor input, PID controller, motor output and data collection. These functions are in the standard Arduino loop() and setup() functions.
+The AS5600 angle sensors raw data is converted to an angle in degrees. The angle the controller gets from the sensor is compared by the PID to the set middle angle, the PID then calculates when the necessary motor action is. 
+The PID gives a certain PWM value to the motor depending how far the angle measured is from the set point.
+
 ### 4.2 Python Tools
 
-For the gathing of data from the Arduino we used the /inverted-pendulum-international-team-3/code/save_info_to_csv.py script. 
+For the gathing of data from the Arduino we used the [Save Data](../code/save_info_to_csv.py) script.
+The data is gathered from the serial monitor output of the Arduino, time data is then added to the angle and PWM data. When a new line of data comes from the Arduino a new line in the csv starts aswell. 
 
-For the visualisation of the data we used the /inverted-pendulum-international-team-3/code/plot_data.ipynb script.
+For the visualisation of the data we used the [Plot Data](../code/plot_data.ipynb) script.
+The reading of the csv data for the visualisation is done with pandas and the visualisation itself is done with matplotlib.
 
 ## 5. Experiments and Data
 We had to kalibrate the motor to give the correct RPM for the given PWM values. 
@@ -119,3 +134,7 @@ Manfred Niehus,
 Pedro Patricio,
 
 ## 9. Repository
+
+Project Repository:
+
+[GitHub: inverted-pendulum-international-team-3](https://github.com/Technische-Natuurkunde-HvA/inverted-pendulum-international-team-3)
